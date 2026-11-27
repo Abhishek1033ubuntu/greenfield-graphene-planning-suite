@@ -1,0 +1,30 @@
+{
+  "title": "Modular Greenfield Graphene Manufacturing Facility: Systems Architecture, Simulation Framework & Custom Configuration Suite",
+  "version": "1.0.0",
+  "description": "Systems-level production planning, utility-closure, 90-day overlapping constraint buffering, expansion/vertical-integration governance, and ISO/IEC pilot calibration framework for a modular greenfield graphene manufacturing facility (macro skids only; excludes piece-part BOMs). Co-developed by Abhishek Singh with Google Gemini assistance.",
+  "creators": [
+    {
+      "name": "Singh, Abhishek",
+      "orcid": "0009-0004-6913-096X",
+      "type": "Researcher"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "graphene manufacturing",
+    "greenfield facility planning",
+    "macro equipment skids",
+    "utility redundancy",
+    "ISO/TS 80004-13",
+    "ISO/TS 21356-1",
+    "IEC/TS 62607",
+    "Google Colab"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Abhishek1033ubuntu/greenfield-graphene-planning-suite",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
