@@ -1,5 +1,14 @@
 # Modular Greenfield Graphene Manufacturing Facility — Planning & Simulation Suite
 
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--6913--096X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-6913-096X)
+[![GitHub](https://img.shields.io/badge/GitHub-Abhishek1033ubuntu-181717?logo=github&logoColor=white)](https://github.com/Abhishek1033ubuntu)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Google Colab](https://img.shields.io/badge/Google%20Colab-Ready-F9AB00?logo=googlecolab&logoColor=black)](https://colab.research.google.com/)
+[![Standards](https://img.shields.io/badge/Standards-ISO%2FTS%2080004--13%20%7C%2021356--1%20%7C%20IEC%2FTS%2062607-0F766E)](References.md)
+[![AI Collaboration](https://img.shields.io/badge/AI%20Collaboration-Google%20Gemini-4285F4?logo=googlegemini&logoColor=white)](AI_COLLABORATION.md)
+[![Scope](https://img.shields.io/badge/Scope-Macro%20Skids%20Only%20(No%20Part%20BOMs)-4B5563)](README.md)  
+
 **Author:** Abhishek Singh  
 **ORCID:** https://orcid.org/0009-0004-6913-096X  
 **GitHub:** https://github.com/Abhishek1033ubuntu  
