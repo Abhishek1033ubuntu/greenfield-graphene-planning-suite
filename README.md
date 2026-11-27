@@ -7,8 +7,8 @@
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-Ready-F9AB00?logo=googlecolab&logoColor=black)](https://colab.research.google.com/)
 [![Standards](https://img.shields.io/badge/Standards-ISO%2FTS%2080004--13%20%7C%2021356--1%20%7C%20IEC%2FTS%2062607-0F766E)](References.md)
 [![AI Collaboration](https://img.shields.io/badge/AI%20Collaboration-Google%20Gemini-4285F4?logo=googlegemini&logoColor=white)](AI_COLLABORATION.md)
-[![Scope](https://img.shields.io/badge/Scope-Macro%20Skids%20Only%20(No%20Part%20BOMs)-4B5563)](README.md)
-
+[![Scope](https://img.shields.io/badge/Scope-Macro%20Skids%20Only%20(No%20Part%20BOMs)-4B5563)](README.md)  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24588676-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.24588676)  
 **Principal Author:** Abhishek Singh | UIDAI: 9414 9122 9013  
 **ORCID:** https://orcid.org/0009-0004-6913-096X  
 **GitHub:** https://github.com/Abhishek1033ubuntu  
