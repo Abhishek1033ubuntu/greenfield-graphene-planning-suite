@@ -23,3 +23,38 @@ This suite models **systems-level pod sizing, macro-skid performance envelopes, 
 ## Quick Start in Google Colab
 1. Paste `greenfield_graphene_suite.py` into a Colab cell and run.
 2. Paste `run_colab_suite.py` into the next cell and call `run_master_greenfield_suite()` to generate `greenfield_graphene_master.json` and `greenfield_graphene_master.csv`.
+
+## Repository Structure
+
+```
+greenfield-graphene-planning-suite/
+├── README.md                                  # Project overview, scope boundary, Custom System Types I-IV & AI collaboration note
+├── LICENSE                                    # Open-science / research license (e.g., Apache-2.0 or CC BY-NC-ND 4.0)
+├── References.md                              # Standards (ISO/TS 80004-13, ISO/TS 21356-1, IEC/TS 62607) & provenance/citation policy
+├── AI_COLLABORATION.md                        # Explicit record of Google Gemini AI collaboration, human engineering ownership & verification gates
+├── requirements.txt                           # Python dependencies (numpy, pandas, matplotlib, reportlab)
+│
+├── src/
+│   ├── __init__.py
+│   ├── core_skids_and_utilities.py           # MacroEquipmentSkid, ScheduledConstraintWindow, VacuumPumpSkidCurve, Chiller30TRCurve, UPS100KVACurve
+│   ├── sizing_buffers_and_validation.py       # size_track_pods, verify_cvd_quench_physics, simulate_90day_overlapping_constraints, validate_simulation_against_pilot
+│   ├── expansion_and_us_market.py             # evaluate_expansion_and_integration & US market demand / tariff sensitivity model
+│   └── custom_system_builder.py               # build_custom_system_type() for Custom System Types I, II, III, and IV
+│
+├── notebooks/
+│   └── greenfield_graphene_colab_master.ipynb # Single-run Google Colab notebook executing full pipeline + PDF/JSON/CSV export
+│
+├── reports/
+│   ├── GGF-ENG-RPT-2026-V1_Full_Work_Report.md
+│   ├── Technical_Feasibility_Report.md
+│   └── Macro_Equipment_RFQ_Checklist.md
+│
+├── exports/                                   # Generated simulation & report artifacts (JSON, CSV, PDF)
+│   ├── .gitkeep
+│   ├── greenfield_graphene_master.json
+│   ├── greenfield_graphene_master.csv
+│   └── Greenfield_Graphene_Full_Work_Report.pdf
+│
+└── tests/
+    └── test_greenfield_suite.py               # Deterministic assertions for pod sizing, utility closure, 90-day constraints & MAPE
+```
