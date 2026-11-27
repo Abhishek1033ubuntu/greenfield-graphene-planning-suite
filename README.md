@@ -9,7 +9,7 @@
 [![AI Collaboration](https://img.shields.io/badge/AI%20Collaboration-Google%20Gemini-4285F4?logo=googlegemini&logoColor=white)](AI_COLLABORATION.md)
 [![Scope](https://img.shields.io/badge/Scope-Macro%20Skids%20Only%20(No%20Part%20BOMs)-4B5563)](README.md)
 
-**Principal Author:** Abhishek Singh | UIDAI: 9414 9122 9013 
+**Principal Author:** Abhishek Singh | UIDAI: 9414 9122 9013  
 **ORCID:** https://orcid.org/0009-0004-6913-096X  
 **GitHub:** https://github.com/Abhishek1033ubuntu  
 **Support / Sponsorship:** https://www.paypal.me/Abhishek1033ubuntu  
