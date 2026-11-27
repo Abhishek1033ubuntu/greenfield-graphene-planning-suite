@@ -1,0 +1,15 @@
+## `v1.0.0` — Modular Greenfield Graphene Planning & Simulation Baseline
+
+Initial public baseline release (`2026-11-27`) of the **Modular Greenfield Graphene Manufacturing Facility** planning and simulation suite.
+
+### Highlights
+* **Macro-Skid Scope Boundary:** Models modular process pods, OEM macro-skid curves, utility redundancy (`N+1` / parallel), 90-day overlapping constraint buffers, US demand/tariff trade-offs, and ISO/IEC pilot validation—excluding sub-assembly piece-part BOMs.
+* **Four Process Tracks & Scaling:** Covers `EQ-T1-R2RCVD`, `EQ-T2-ECHEM`, `EQ-T3A-VLAM`, and `EQ-T3B-GCNT` across Lean Pilot (`3 pods`), Contract Ramp (`7 pods`), and Full Baseline (`11 pods`).
+* **Central Utilities & Redundancy:** Includes `VacuumPumpSkidCurve` (`100` to `0.02 mbar`), `Chiller30TRCurve` (`30 TR` part-load and high-ambient derating), and `UPS100KVACurve` (`100 kVA` parallel and `2+1` `N+1` topologies).
+* **Custom System Builders (`Types I–IV`):** Provides `build_custom_system_type()` for pilot qualification, 15-year phased conductor supply, IC-level specimen batching, and US-capture hybrid configurations.
+* **Standards & Verification:** Anchored to **ISO/TS 80004-13**, **ISO/TS 21356-1**, and **IEC/TS 62607**, with `SIM-05` quench timing (`5.34 s` to `150 °C`), Golden-Lot `MAPE <= 5.0%` validation, and unit tests in `tests/test_greenfield_suite.py`.
+
+### Attribution
+* **Author:** Abhishek Singh (ORCID: `0009-0004-6913-096X`)
+* **AI Collaboration:** Co-developed with Google Gemini assistance (`AI_COLLABORATION.md`)
+* **License:** Apache-2.0 (`LICENSE`)
